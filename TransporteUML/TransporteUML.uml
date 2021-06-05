@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_4_gXgMY3EeuA8tW0jPnyMQ" name="TransporteUML">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_5ARzkMY3EeuA8tW0jPnyMQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6C1cwMY3EeuA8tW0jPnyMQ" name="Clases.ito.poo">
+    <packagedElement xmi:type="uml:Class" xmi:id="_ARc7IMY4EeuA8tW0jPnyMQ" name="Transporte">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_C5iXsMY4EeuA8tW0jPnyMQ" name="marca" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_aTfgsMY4EeuA8tW0jPnyMQ" name="modelo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rkIiEMY4EeuA8tW0jPnyMQ" name="cantidadmaximacarga" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_wwjjoMY4EeuA8tW0jPnyMQ" name="fechadeadquisicion" visibility="private" type="_z6NcMMY4EeuA8tW0jPnyMQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_6yzEoMY4EeuA8tW0jPnyMQ" name="listadeviajes" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AVeqEMY5EeuA8tW0jPnyMQ" name="Viajes">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_BLqEIMY5EeuA8tW0jPnyMQ" name="ciudaddedestino" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_JyG8kMY5EeuA8tW0jPnyMQ" name="direccion" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_OWsiEMY5EeuA8tW0jPnyMQ" name="fechadeviaje" visibility="private" type="_z6NcMMY4EeuA8tW0jPnyMQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_UIzDkMY5EeuA8tW0jPnyMQ" name="fechaderegreso" visibility="private" type="_z6NcMMY4EeuA8tW0jPnyMQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_YKmFEMY5EeuA8tW0jPnyMQ" name="montodeviaje" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_eXZlkMY5EeuA8tW0jPnyMQ" name="descripcioncarga" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_jeVDIMY5EeuA8tW0jPnyMQ" name="asignacionvehiculo" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_yK3E0MZAEeuA8tW0jPnyMQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_AEApIMZFEeuA8tW0jPnyMQ" name="asignar">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_z6NcMMY4EeuA8tW0jPnyMQ" name="java.time.LocalDate"/>
+</uml:Model>
